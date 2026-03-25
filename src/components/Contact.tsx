@@ -10,11 +10,11 @@ const Contact = () => (
       </p>
 
       <a
-        href="tel:+441onal"
+        href="tel:+4407717083947"
         className="inline-flex items-center gap-4 bg-primary text-primary-foreground font-display text-2xl md:text-3xl uppercase tracking-wider px-10 py-5 rounded-sm hover:brightness-110 transition-all mb-12"
       >
         <Phone className="w-7 h-7" />
-        01onal — Call Now
+        07717 083 947
       </a>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-muted-foreground font-body">

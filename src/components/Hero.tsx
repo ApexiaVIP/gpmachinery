@@ -22,7 +22,7 @@ const Hero = () => (
         Plant hire, machinery repairs &amp; garden tool servicing across Cheshire and surrounding areas. From strimmers to diggers — we keep you working.
       </p>
       <a
-        href="tel:+441onal"
+        href="tel:+4407717083947"
         className="inline-flex items-center gap-3 bg-secondary text-secondary-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-sm hover:brightness-110 transition-all animate-fade-in-up"
         style={{ animationDelay: "0.3s" }}
       >
