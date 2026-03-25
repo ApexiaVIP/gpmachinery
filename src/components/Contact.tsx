@@ -1,4 +1,4 @@
-import { Phone, MapPin, Facebook } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" className="py-20 md:py-28 bg-muted">
@@ -17,20 +17,11 @@ const Contact = () => (
         07717 083 947
       </a>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-muted-foreground font-body">
+      <div className="flex items-center justify-center text-muted-foreground font-body">
         <div className="flex items-center gap-2">
           <MapPin className="w-5 h-5 text-primary" />
           <span>Wilmslow, Cheshire</span>
         </div>
-        <a
-          href="https://www.facebook.com/Gardenandplantmachinery/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 hover:text-primary transition-colors"
-        >
-          <Facebook className="w-5 h-5" />
-          <span>Follow us on Facebook</span>
-        </a>
       </div>
     </div>
   </section>
