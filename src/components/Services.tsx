@@ -1,32 +1,33 @@
 import { Wrench, Truck, PhoneCall, ShoppingBag } from "lucide-react";
-import repairsImg from "@/assets/repairs.jpg";
-import plantHireImg from "@/assets/plant-hire.jpg";
-import calloutsImg from "@/assets/callouts.jpg";
+import takeuchi from "@/assets/takeuchi-mini-digger.jpg";
+import scissorLift from "@/assets/jcb-scissor-lift.jpg";
+import spiderCrane from "@/assets/hinowa-spider.jpg";
+import telehandler from "@/assets/jcb-telehandler.jpg";
 
 const services = [
   {
     icon: Wrench,
     title: "Repairs & Servicing",
     description: "Expert repairs on all garden tools and plant machinery. Chainsaws, strimmers, mowers, hedge trimmers — pull cords to pistons, we fix it all.",
-    image: repairsImg,
+    image: takeuchi,
   },
   {
     icon: Truck,
     title: "Plant Hire",
     description: "Mini diggers, dumpers and plant machinery available for hire. Competitive rates for local Cheshire jobs, big or small.",
-    image: plantHireImg,
+    image: scissorLift,
   },
   {
     icon: PhoneCall,
     title: "Call Outs & Site Visits",
     description: "Machinery broken down on site? We come to you. Call us for a same-day or next-day site visit across Wilmslow and the surrounding areas.",
-    image: calloutsImg,
+    image: spiderCrane,
   },
   {
     icon: ShoppingBag,
     title: "Sales",
     description: "We sell quality new and refurbished garden and plant machinery. Need something specific? We can source it quickly for you.",
-    image: null,
+    image: telehandler,
   },
 ];
 

@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/diggers-yard.jpg";
 
 const Hero = () => (
   <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
@@ -21,14 +21,22 @@ const Hero = () => (
       <p className="font-body text-primary-foreground/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
         Plant hire, machinery repairs &amp; garden tool servicing across Cheshire and surrounding areas. From strimmers to diggers — we keep you working.
       </p>
-      <a
-        href="tel:+4407717083947"
-        className="inline-flex items-center gap-3 bg-secondary text-secondary-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-sm hover:brightness-110 transition-all animate-fade-in-up"
-        style={{ animationDelay: "0.3s" }}
-      >
-        <Phone className="w-5 h-5" />
-        Call Us Today
-      </a>
+      <div className="flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+        <a
+          href="tel:+4407717083947"
+          className="inline-flex items-center gap-3 bg-secondary text-secondary-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-sm hover:brightness-110 transition-all"
+        >
+          <Phone className="w-5 h-5" />
+          07717 083 947
+        </a>
+        <a
+          href="tel:+441625583929"
+          className="inline-flex items-center gap-3 bg-primary-foreground/10 border border-primary-foreground/30 text-primary-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-sm hover:bg-primary-foreground/20 transition-all"
+        >
+          <Phone className="w-5 h-5" />
+          01625 583 929
+        </a>
+      </div>
     </div>
   </section>
 );
